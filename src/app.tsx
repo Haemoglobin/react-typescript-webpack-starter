@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { render } from 'react-dom'; 
 
+import HelloComponent from './hello-component';
+
 render(
-    <div>Hello, World!</div>, 
+    <HelloComponent/>, 
     document.getElementById('app')); 
