@@ -1,7 +1,10 @@
-import * as React from 'react'; 
+import * as React from "react"; 
 
-export default class HelloComponent extends React.Component<any, any> {
+interface Props {
+    sayHelloTo: string;
+}
+export default class HelloComponent extends React.Component<Props, any> {
     render() {
-        return <div>Hello, World!</div>;
+        return <div>Hello, {this.props.sayHelloTo}!</div>;
     }
 } 
