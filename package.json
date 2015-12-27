@@ -1,0 +1,29 @@
+{
+  "name": "react-typescript-webpack-starter",
+  "version": "1.0.0",
+  "description": "React / Typescript / Webpack / Mocha-Chai / CSS Modules / SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haemoglobin/react-typescript-webpack-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haemoglobin/react-typescript-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/Haemoglobin/react-typescript-webpack-starter#readme",
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^1.7.0",
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.5",
+    "webpack": "^1.12.9"
+  }
+}
