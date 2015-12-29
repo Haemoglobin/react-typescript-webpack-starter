@@ -1,10 +1,15 @@
-import * as React from "react"; 
+import * as React from "react";
+import * as CSSModules from "react-css-modules";
+var styles: any = require("./hello-component.css");
 
 interface Props {
     sayHelloTo: string;
 }
-export default class HelloComponent extends React.Component<Props, any> {
+class HelloComponent extends React.Component<Props, any> {
     render() {
-        return <div>Hello, {this.props.sayHelloTo}!</div>;
+        return <div className={styles.hello}>Hello, {this.props.sayHelloTo}!</div>;
     }
-} 
+}
+
+//export default CSSModules(HelloComponent, styles)
+export default HelloComponent;
